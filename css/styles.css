@@ -1,0 +1,70 @@
+body {
+  padding: 100px;
+}
+
+.circle {
+  width: 100px;
+  height:100px;
+  border-radius: 100%;
+  position:relative;
+}
+
+.purple {
+  background-color: purple;
+  z-index:99;
+}
+.orange {
+  bottom: 50px;
+  background-color: orange;
+  z-index: 0;
+}
+
+/* worm section */
+
+.worm-segment {
+  background-color: darkgreen;
+  border: 15px dashed green;
+  width:150px;
+  height:150px;
+  border-radius: 100%;
+  position:relative;
+}
+#worm-wrapper {
+  display: flex;
+  margin-top:200px;
+}
+
+#tail-segment{
+  width:75px;
+  height:75px;
+  right: 137px;
+  top: 82px;
+}
+
+ #worm-head{
+  width:250px;
+  height:250px;
+  bottom: 120px;
+  left: 73px;
+  z-index:99;
+}
+#segment-2 {
+  z-index:5;
+}
+#segment-3 {
+  right: 75px;
+  top: 25px;
+  z-index:4;
+}
+
+.eye {
+  background-color: black;
+  width: 50px;
+  height: 100px;
+  border-radius: 100%;
+  left: 207px;
+  bottom: 84px;
+  position: relative;
+  z-index: 100;
+  margin-right: 10px;
+}
